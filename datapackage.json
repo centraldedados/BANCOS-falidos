@@ -1,0 +1,72 @@
+{
+  "resources": [
+    {
+      "name": "bancos-falidos",
+      "path": "data/bancos-falidos.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 19408,
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "DATE",
+            "type": "date",
+            "description": "Data da ocorrência"
+          },
+          {
+            "name": "PLACE",
+            "type": "string",
+            "description": "Lugar da ocorrência"
+          },
+          {
+            "name": "HOME_COUNTRY",
+            "type": "string",
+            "description": "País"
+          },
+          {
+            "name": "LOCATION",
+            "type": "string",
+            "description": "Localização"
+          },
+          {
+            "name": "CORPORATE_ENTITY",
+            "type": "number",
+            "description": "Entidade"
+          },
+          {
+            "name": "SOURCE_URL",
+            "type": "string",
+            "description": "URL da fonte"
+          },
+          {
+            "name": "TYPE_OF_RESTRUCTURING",
+            "type": "string",
+            "description": "Tipo de Reestruturação"
+          },
+          {
+            "name": "FAILED_(Y/N)",
+            "type": "number",
+            "description": "Se faliu ou não (YES/NO)"
+          },
+          {
+            "name": "AMOUNT",
+            "type": "number",
+            "description": "Montante envolvido"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "bancos-falidos",
+  "title": "Bancos falidos",
+  "description": "Repositório do dataset dedicado à lista de bancos falidos.",
+  "homepage": "git://github.com/centraldedados/bancos-falidos.git",
+  "version": "0.1.0",
+  "license": "ODC-PDDL-1.0",
+  "repository": "https://github.com/gsilvapt/bancos-falidos.git"
+}
